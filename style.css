@@ -75,3 +75,54 @@ a {
   border-radius: 6px;
   font-weight: 600;
 }
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 128px;
+  margin-bottom: 64px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+}
+
+.main-content img {
+  border: 2px solid #3882F6;
+  border-radius: 12px;
+
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.quotation-section {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 84px 128px;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  margin: 0;
+}
+
+.author {
+  font-weight: 600;
+  text-align: right;
+  margin: 0;
+}
